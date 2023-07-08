@@ -4,6 +4,8 @@ using UnityEngine;
 
 public static class InterMenuSelection 
 {
-    static string scammerTextPath = "";
-    static string scammerImagePath = "";
+    public static string scammerTextPath = "";
+    public static string scammerImagePath = "";
+
+    public static string Endtext = "";
 }

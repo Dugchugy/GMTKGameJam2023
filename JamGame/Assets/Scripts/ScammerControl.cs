@@ -80,6 +80,39 @@ public class ScammerControl : MonoBehaviour
         controller.QueueUpdate(curState);
     }
 
+    public void ProgressOptionOne(){
+        //logs  that the state is changing
+        Debug.Log("changing state");
+
+        //moves to the next state
+        curState = curState.nextState[0];
+
+        //queues the state controller to update to the next state
+        controller.QueueUpdate(curState);
+    }
+
+    public void ProgressOptionTwo(){
+        //logs  that the state is changing
+        Debug.Log("changing state");
+
+        //moves to the next state
+        curState = curState.nextState[1];
+
+        //queues the state controller to update to the next state
+        controller.QueueUpdate(curState);
+    }
+
+    public void ProgressOptionThree(){
+        //logs  that the state is changing
+        Debug.Log("changing state");
+
+        //moves to the next state
+        curState = curState.nextState[2];
+
+        //queues the state controller to update to the next state
+        controller.QueueUpdate(curState);
+    }
+
     static void connectLinks(List<StateBase> states){
 
         //loops for each state in the list

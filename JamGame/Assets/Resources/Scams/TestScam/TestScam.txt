@@ -1,3 +1,5 @@
 1|!|ScammerLineTest1|&|2
 1|!|ScammerLineTest2|&|3
-1|!|should loop back to test 1 now|&|1
+1|!|should loop back to test 1 now|&|4
+2|!|firstOption|&|1|!|Second option|&|2|!|A third and final option thats really long and ends the interaction|&|5
+3|!|You ended the inerationTest|$|F|&|0

@@ -63,18 +63,41 @@ public class StateController : MonoBehaviour
                 isUpdating = false;
             }
 
+            //declares a text obejct to use for editing button texts
+            TMPro.TMP_Text text;
+
             //switches based on teh current type
             switch(curType){
 
             case 1:
                 //gets the text source from the scammer frame
-                TMPro.TMP_Text text = ScammerFrame.transform.GetChild(0).gameObject.GetComponent<TMPro.TMP_Text>();
+                text = ScammerFrame.transform.GetChild(0).gameObject.GetComponent<TMPro.TMP_Text>();
 
                 //writes that it's current text should be...
                 text.text = finalTexts[0].Substring(0, curLength);
                 break;
 
-            default:
+            case 2:
+
+                //updates each frame of the options text
+                for(int i = 0; i < 3; i++){
+
+
+                    //gets the text object for the current option
+                    text = OptionsFrame.transform.GetChild(i).GetChild(0).gameObject.GetComponent<TMPro.TMP_Text>();
+
+                    //checks fi the current length is less than the length of the entire text
+                    if(curLength < finalTexts[i].Length){
+
+                        //writes the portion of the text that should be displayed
+                        text.text = finalTexts[i].Substring(0, curLength);
+
+                    }else{
+
+                        //writes the entire text (curlength is longer than the text)
+                        text.text = finalTexts[i];
+                    }
+                }
 
                 break;
             }
@@ -120,13 +143,31 @@ public class StateController : MonoBehaviour
 
                 break;
 
-            default:
+            case 2:
 
                 //disables the scammer frame
                 ScammerFrame.SetActive(false);
 
                 //enables the options frame
                 OptionsFrame.SetActive(true);
+
+                break;
+
+            //checks if this is an ending scene
+            case 3:
+
+                //stores the state content into the intermenu Selection obejct
+                InterMenuSelection.Endtext = newState.contents[0];
+
+                //transitions to the ending scene
+                UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+
+                break;
+
+            default:
+
+                //prints that the state type is not supported
+                Debug.Log("state type not supported");
 
                 break;
         }

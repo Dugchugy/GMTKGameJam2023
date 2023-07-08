@@ -1,0 +1,7 @@
+1|!|Hello, this is Canadian Revenue Agency ltd. you have a tax return of $ 4,836.63. Please provide your credit card number, the expiration date, and the 3 digits on the back so we may deposit the money against your credit card debt.|&|2
+2|!|4514 0187 6437 8904, expiration date is June 2026, 3 digits on the back are 6, 2, 5|&|3|!|I don’t remember mine, what's yours?|&|4|!|Would you like to hear some cool facts about ducks?|&|7
+3|!|Unfortuently, he didn't deposit any money against your credit card debt. Instead, he spend $5000 on amazon purchasing lawn flamingos.|$|F|&|0
+1|!|What would you need my credit card information for?|&|5
+2|!|I remember my credit card information now, its 4514 0187 6437 8904, expiration date is June 2026, 3 digits on the back are 6, 2, 5|&|3|!|just curious|&|6|!|I don't have any credit card debt right now, can I withdraw the tax return from your card?|&|7
+1|!|well, I still need your credit card information|&|2
+3|!|temp you win|$|S|&|0
