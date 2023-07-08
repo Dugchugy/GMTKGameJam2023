@@ -3,23 +3,22 @@ using UnityEngine;
 public class SwitchBackground : MonoBehavior
 {
     private SpriteRenderer spriteRenderer;
-    //public string background1Path;
-    //public string background2Path;
+    //public string defaultBackgroundPath;
+    //public string firstBackgroundPath;
 
     void Start()
     {
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = Resources.Load<Sprite>(defaultBack);
     }
 
-    void Update(
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            //If statements to load different backgrounds - if input is A.. if input is B ... etc.
+            if (Input.GetKeyDown(KeyCode.1)
+            {
+                spriteRenderer.sprite = Resources.Load<Sprite>(firstBackground);
+            }
 
-            //spriteRenderer.sprite = Resources.Load<Sprite>(background1Path);
-            //spriteRenderer.sprite = Resources.Load<Sprite>(background2Path);
-        }
+        )
     }
-    )
 }
