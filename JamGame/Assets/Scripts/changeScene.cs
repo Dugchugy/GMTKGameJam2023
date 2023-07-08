@@ -3,12 +3,13 @@ using UnityEngine;
 public class SwitchBackground : MonoBehavior
 {
     private SpriteRenderer spriteRenderer;
-    //public string background1Path;
-    //public string background2Path;
+    //public string defaultBackgroundPath;
+    //public string firstBackgroundPath;
 
     void Start()
     {
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = Resources.Load<Sprite>(defaultBack);
     }
 
     void Update(
@@ -17,8 +18,8 @@ public class SwitchBackground : MonoBehavior
         {
             //If statements to load different backgrounds - if input is A.. if input is B ... etc.
 
-            //spriteRenderer.sprite = Resources.Load<Sprite>(background1Path);
-            //spriteRenderer.sprite = Resources.Load<Sprite>(background2Path);
+            //spriteRenderer.sprite = Resources.Load<Sprite>(defaultBack);
+            //spriteRenderer.sprite = Resources.Load<Sprite>(firstBackground);
         }
     }
     )
