@@ -12,15 +12,12 @@ public class SwitchBackground : MonoBehavior
         spriteRenderer.sprite = Resources.Load<Sprite>(defaultBack);
     }
 
-    void Update(
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.1)
         {
-            //If statements to load different backgrounds - if input is A.. if input is B ... etc.
-
-            //spriteRenderer.sprite = Resources.Load<Sprite>(defaultBack);
-            //spriteRenderer.sprite = Resources.Load<Sprite>(firstBackground);
+            spriteRenderer.sprite = Resources.Load<Sprite>(firstBackground);
         }
-    }
+
     )
 }
