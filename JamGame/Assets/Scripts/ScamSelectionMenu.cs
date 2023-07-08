@@ -14,4 +14,9 @@ public class ScamSelectionMenu : MonoBehaviour
         //loads the main interaction Scene
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
+
+    public void MoveToScamSelection(){
+        //moves to the scam selection scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
 }

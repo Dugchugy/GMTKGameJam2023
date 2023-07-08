@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScamSelectMenu.unity
     guid: 34a80c56eef758040afb6de21a5deedb
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: cd3860f41e940d6488e59de20b4bc93f
   m_configObjects: {}
