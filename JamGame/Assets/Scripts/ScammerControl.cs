@@ -7,22 +7,47 @@ public class ScammerControl : MonoBehaviour
 
     public List<StateBase> states;
 
+    private StateController controller;
+
+    private bool FirstFrame = true;
+
+    private StateBase curState;
+
     // Start is called before the first frame update
     void Start()
     {
+        FirstFrame = true;
+
         //initalizes as an empty list
         states = new List<StateBase>();
+
+        //reads teh state controller off this object
+        controller = gameObject.GetComponent<StateController>();
+
+        //temp controls
+        //loads the test scam
+        LoadFromResource("Scams/TestScam/TestScam");
+
+        curState = states[0];
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(FirstFrame){
+            //calls the state controller to update with the initial state (doesn't work while start is executed)
+            controller.QueueUpdate(curState);
+
+            //marks that the first frame has passed
+            FirstFrame = false;
+        }
     }
 
     void LoadFromResource(string resourceName){
         //initalizes as an empty list
         states = new List<StateBase>();
+
+        Debug.Log("loading resource: " + resourceName);
 
         //attempts to read the content of the specifed resource as a string
         string Filetext = Resources.Load<TextAsset>(resourceName).ToString();
@@ -42,6 +67,17 @@ public class ScammerControl : MonoBehaviour
         connectLinks(states);
 
         
+    }
+
+    public void progressScammerText(){
+        //logs  that the state is changing
+        Debug.Log("changing state");
+
+        //moves to the next state
+        curState = curState.nextState[0];
+
+        //queues the state controller to update to the next state
+        controller.QueueUpdate(curState);
     }
 
     static void connectLinks(List<StateBase> states){
