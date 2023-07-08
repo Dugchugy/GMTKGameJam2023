@@ -160,7 +160,7 @@ public class StateController : MonoBehaviour
                 InterMenuSelection.Endtext = newState.contents[0];
 
                 //transitions to the ending scene
-                UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+                UnityEngine.SceneManagement.SceneManager.LoadScene(3);
 
                 break;
 

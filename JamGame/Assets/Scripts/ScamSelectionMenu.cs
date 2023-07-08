@@ -12,7 +12,7 @@ public class ScamSelectionMenu : MonoBehaviour
         InterMenuSelection.scammerTextPath = "Scams/CRAScam/CRAScam";
 
         //loads the main interaction Scene
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 
     public void MoveToScamSelection(){
