@@ -6,7 +6,7 @@ public class ScamSelectionMenu : MonoBehaviour
 {
     public void SelectCRA(){
         //stores the path for the CRA scammer image
-        InterMenuSelection.scammerImagePath = "Scams/CRAScam/olddude1";
+        InterMenuSelection.scammerImagePath = "Scams/CRAScam/scammerman";
 
         //stores the path for the CRA scam text
         InterMenuSelection.scammerTextPath = "Scams/CRAScam/CRAScam";

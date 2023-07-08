@@ -21,12 +21,22 @@ public class StateController : MonoBehaviour
 
     private GameObject ScammerFrame;
     private GameObject OptionsFrame;
-    private GameObject EndingFrame;
+
+    private GameObject scammerSource;
+
+    private GameObject olddude;
+
+    private bool reverseWiggle = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
         timePerChar = 1.0f/typeRate;
+
+        //gets the scammer and old dude sprites
+        scammerSource = GameObject.Find("ScammerSource");
+        olddude = GameObject.Find("OldMan");
 
         //gets the frames
         ScammerFrame = GameObject.Find("ScammerText");
@@ -38,6 +48,8 @@ public class StateController : MonoBehaviour
         curLength = 0;
         finalLength = 0;
         finalTexts = new string[] {"baseText"};
+
+        
     }
 
     // Update is called once per frame
@@ -53,14 +65,23 @@ public class StateController : MonoBehaviour
                 passedTime -= timePerChar;
                 curLength += 1;
 
+                //inverts whether or not the wiggle should be reversed
+                reverseWiggle = !reverseWiggle;
+
                 //breaks the loop if the current length is longer than the longest string
                 if(curLength >= finalLength){
                     break;
                 }
             }
 
+            //calculates how much rotation should be preset
+            float turnPercent = passedTime/timePerChar;
+
             if(curLength >= finalLength){
                 isUpdating = false;
+
+                //marks that no ortation should be preset, animation is over
+                turnPercent = 0.5f;
             }
 
             //declares a text obejct to use for editing button texts
@@ -75,6 +96,18 @@ public class StateController : MonoBehaviour
 
                 //writes that it's current text should be...
                 text.text = finalTexts[0].Substring(0, curLength);
+
+                //wiggles the scammer source
+                if(reverseWiggle){
+                    //applies a rotation to the scammer image
+                    scammerSource.transform.rotation = Quaternion.Euler(0, 0, -2.0f + (4.0f * turnPercent));
+                }else{
+
+                    //applies the negative of the above rotation to the scammer iamge
+                    scammerSource.transform.rotation = Quaternion.Euler(0, 0, 2.0f - (4.0f * turnPercent));
+                }
+
+
                 break;
 
             case 2:
@@ -97,6 +130,16 @@ public class StateController : MonoBehaviour
                         //writes the entire text (curlength is longer than the text)
                         text.text = finalTexts[i];
                     }
+                }
+
+                //wiggles the old man
+                if(reverseWiggle){
+                    //applies a rotation to the scammer image
+                    olddude.transform.rotation = Quaternion.Euler(0, 0, -2.0f + (4.0f * turnPercent));
+                }else{
+
+                    //applies the negative of the above rotation to the scammer iamge
+                    olddude.transform.rotation = Quaternion.Euler(0, 0, 2.0f - (4.0f * turnPercent));
                 }
 
                 break;
