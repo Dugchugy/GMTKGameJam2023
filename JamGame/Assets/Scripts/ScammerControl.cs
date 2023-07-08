@@ -24,9 +24,14 @@ public class ScammerControl : MonoBehaviour
         //reads teh state controller off this object
         controller = gameObject.GetComponent<StateController>();
 
-        //temp controls
-        //loads the test scam
-        LoadFromResource("Scams/TestScam/TestScam");
+        //load the text resources for the scam selected earlier
+        LoadFromResource(InterMenuSelection.scammerTextPath);
+
+        //gets the image component of the scammer image
+        UnityEngine.UI.Image scammerImage = GameObject.Find("ScammerSource").GetComponent<UnityEngine.UI.Image>();
+
+        //loads the new iamge to use and set it as the scammers sprite
+        scammerImage.sprite = Resources.Load<Sprite>(InterMenuSelection.scammerImagePath);
 
         curState = states[0];
     }
