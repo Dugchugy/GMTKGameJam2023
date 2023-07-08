@@ -1,5 +1,6 @@
 using UnityEngine;
 
+/*
 public class SwitchBackground : MonoBehavior
 {
     private SpriteRenderer spriteRenderer;
@@ -14,11 +15,12 @@ public class SwitchBackground : MonoBehavior
 
     void Update()
     {
-            if (Input.GetKeyDown(KeyCode.1)
+            if (Input.GetKeyDown(KeyCode.A))
             {
                 spriteRenderer.sprite = Resources.Load<Sprite>(firstBackground);
             }
 
-        )
+        
     }
 }
+*/
