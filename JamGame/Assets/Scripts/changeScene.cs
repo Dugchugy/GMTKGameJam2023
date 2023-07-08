@@ -14,10 +14,11 @@ public class SwitchBackground : MonoBehavior
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.1)
-        {
-            spriteRenderer.sprite = Resources.Load<Sprite>(firstBackground);
-        }
+            if (Input.GetKeyDown(KeyCode.1)
+            {
+                spriteRenderer.sprite = Resources.Load<Sprite>(firstBackground);
+            }
 
-    )
+        )
+    }
 }
