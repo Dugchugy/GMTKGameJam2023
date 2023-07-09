@@ -1,31 +1,31 @@
-1|!|Hello, this is Canadian Revenue Agency ltd. you have a tax return of $ 4,836.63. Please provide your credit card number, the expiration date, and the 3 digits on the back so we may deposit the money against your credit card debt.|&|2
+1|!|Hello, this is Canadian Revenue Agency ltd. You have a tax return of $ 4,836.63. Please provide your credit card number, the expiration date, and the 3 digits on the back so we may deposit the money against your credit card debt.|&|2
 2|!|4514 0187 6437 8904, expiration date is June 2014, 3 digits on the back are 6, 2, 5|&|3|!|I don’t remember mine, what's yours?|&|4|!|Would you like to hear some cool facts about ducks?|&|9
-3|!|Unfortuently, he didn't deposit any money against your credit card debt. Instead, he spent $5000 on amazon purchasing lawn flamingos.|$|F|&|0
+3|!|Unfortuently, he didn't deposit any money against your credit card debt. Instead, he spend $5000 on Amazon purchasing lawn flamingos.|$|F|&|0
 1|!|What would you need my credit card information for?|&|5
-2|!|I remember my credit card information now, its 4514 0187 6437 8904, expiration date is June 2026, 3 digits on the back are 6, 2, 5.|&|3|!|just curious.|&|6|!|I don't have any credit card debt right now, can I withdraw the tax return from your card?|&|7
-1|!|well, I still need your credit card information.|&|2
+2|!|I remember my credit card information now, it's 4514 0187 6437 8904, expiration date is June 2026, 3 digits on the back are 6, 2, 5.|&|3|!|Just curious.|&|6|!|I don't have any credit card debt right now, can I withdraw the tax return from your card?|&|7
+1|!|Well, I still need your credit card information.|&|2
 1|!|Hmm, I don't think my boss would be happy with that unless you've got something you could give me as well.|&|8
-2|!|Would you like to hear some cool facts about ducks?|&|9|!|I could give you my credit card information, its 4514 0187 6437 8904, expiration date is June 2026, 3 digits on the back are 6, 2, 5.|&|3|!|I could give you some bricks.|&|22
+2|!|Would you like to hear some cool facts about ducks?|&|9|!|I could give you my credit card information, its 4514 0187 6437 8904, expiration date is June 2026, 3 digits on the back are 6, 2, 5.|&|3|!|I could give you some bricks.|&|23
 1|!|I really like ducks. what cool duck facts do you have?|&|10
-2|!|All ducks have a preference for the color green.|&|12|!|Ducks from different place have audibly different accents|&|11|!|Ducks can move both eyes independantly of eachother|&|29
-1|!|Thats not a very fun fact, you should just stick to giving me your credit card info|&|2
+2|!|All ducks have a preference for the color green.|&|12|!|Ducks from different places have audibly different accents|&|11|!|Ducks can move both eyes independantly of each other|&|29
+1|!|That's not a very fun fact, you should just stick to giving me your credit card info.|&|2
 1|!|Green is my favorite color too. I guess I have a lot in common with ducks.|&|13
 1|!|You know, I've always wanted to have ducks. Do you know where I could adopt some?|&|14
-2|!|Not really, no|&|15|!|You'd probably want a shleter or something for them. I could give you some bricks if you'd like?|&|22|!|you'll need a lot of stuff but I may be able to get you some, I've got some ducks myself|&|16
-1|!|Thats too bad. anyway, we're getting sidetracked, you need to give me your credit card info|&|2
+2|!|Not really, no|&|15|!|You'd probably want a shelter or something for them. I could give you some bricks if you'd like?|&|23|!|You'll need a lot of stuff but I may be able to get you some, I've got some ducks myself|&|16
+1|!|Thats too bad. anyway, we're getting sidetracked, you need to give me your credit card info.|&|2
 1|!|That would be wonderful, what kind of stuff will I need?|&|17
-2|!|I'll send you some eggs but you'll need an incubator, some feed, and a place for the ducks to live just to name a few|&|18|!|You're in luck,  I happen to sell starter kits for people looking to get some ducks, I can give you one for $3000 if you give me your credit card information|&|20|!|You'll Definitly need a shelter for the ducks, I can give you some bricks for it if you'd like.|&|22
+2|!|I'll send you some eggs but you'll need an incubator, some feed, and a place for the ducks to live just to name a few.|&|18|!|You're in luck,  I happen to sell starter kits for people looking to get some ducks, I can give you one for $3000 if you give me your credit card information.|&|20|!|You'll definitly need a shelter for the ducks, I can give you some bricks for it if you'd like.|&|23
 1|!|Oh, that sounds like a lot of work. Thank you for the offer but I'll need to think about it some more.|&|19
 3|!|The scammer hung up and went to think about the possiblity of owning ducks. you successfully weren't scammed, but you didn't get anything from the scammer either. better luck next time.|$|S|&|0
 1|!|That sounds wonderful my credit card is 6271 2213 6550 2853, it exires December 2012 and the 3 digits on the back are 9, 4, and 2.|&|21
-3|!|You thank the scammer for his time and charge him with a 3000 credit card payment. Unfortuently, you don't actually have and ducks to send him so he'll probably we waiting for some time before he realizes what happened. You successfully scammed the scammer for $3000, good job|$|S|&|0
+3|!|You thank the scammer for his time and charge him with a 3000 credit card payment. Unfortuently, you don't actually have any ducks to send him so he'll probably we waiting for some time before he realizes what happened. You successfully scammed the scammer for $3000, good job.|$|S|&|0
 1|!|I could use some bricks, would you want anything in return though?|&|23
 2|!|I'll give you 400 bricks if you give me your credit card information.|&|24|!|I sell bricks for $0.05 per brick. Just for you, since you've been so nice today, I'll give you two bricks for every $0.05.|&|26|!|If you give me your address, I can check a map and see if you're close enough to me for me to send you some bricks.|&|30
 1|!|That's ridiculous! you're trying to scam me! this is insane!|&|25
 3|!|The scammer hung up. You'll have to try and be a bit more subtle in you next attempt. You weren't scamed though.|$|S|&|0
-1|!|That sounds like an exelent deal. I've got a big project I've been meaning to work on for a while so I'll buy 40000.|&|27
-1|!|Here's my credit card information. its 6271 2213 6550 2853, it exires December 2012 and the 3 digits on the back are 9, 4, and 2.|&|28
+1|!|That sounds like an excellent deal. I've got a big project I've been meaning to work on for a while so I'll buy 40000.|&|27
+1|!|Here's my credit card information. its 6271 2213 6550 2853, it expires December 2012 and the 3 digits on the back are 9, 4, and 2.|&|28
 3|!|You charge him $1000 for the bricks and an extra $100 for shipping (those bricks are heavy) and even manage to get his address which you report to the local authorities. You successfully scammed the scammer for $1100, good job.|$|S|&|0
 1|!|Wow! I've always felt I can't look in enough directions with both my eyes facing the same way.|&|13
-1|!|Thats wonderful. I can't wait to have the bricks delived|&|31
-3|!|The Scammer gives you his address before you end the call. You report the address to the authorities and continue on with your day. You weren't scammed but you didn't manage to scam the scammer either. better luck next time.|$|S|&|0
+1|!|That's wonderful. I can't wait to have the bricks delived.|&|31
+3|!|The scammer gives you his address before you end the call. You report the address to the authorities and continue on with your day. You weren't scammed but you didn't manage to scam the scammer either. Better luck next time.|$|S|&|0
