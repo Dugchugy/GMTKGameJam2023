@@ -1,41 +1,41 @@
 1|!|This is an automated message from Super Bank calling to confirm your purchase of $5664.00 from amazon.com|&|2
 1|!|If this was you, please press 1. If this was not you, please press 2. If you would like to talk with an advisor, please press 3.|&|3
 2|!|*Press 1*|&|6|!|*Press 2*|&|12|!|*Press 3*|&|4
-1|!|We are connecting you with and advisor. Please be patient|&|5
-3|!|You sit on the hold line listening to the hold music for about 2 hours before you figure this isn't going anywhere and hang up. You don't use Super bank but figure you should check your balance anyways. Luckily, its completely unchanged. You weren't scammed, but you didn't get anything either.|$|S|&|0
-1|!|Thank you for confirming your purchase, please enter the 16 digits on your bank card to confirm your identity or press # to speak with an advisor|&|7
-2|!|*enter card number*|&|8|!|*Press #*|&|4|!|*enter a fake card number*|&|10
-1|!|Thank you for your Co-operation. Have a good day.|&|9
+1|!|We are connecting you with and advisor. Please be patient.|&|5
+3|!|You sit on the hold line listening to the hold music for about 2 hours before you figure this isn't going anywhere and hang up. You don't use Super bank but figure you should check your balance anyways. Luckily, it's completely unchanged. You weren't scammed, but you didn't get anything either.|$|S|&|0
+1|!|Thank you for confirming your purchase, please enter the 16 digits on your bank card to confirm your identity or press # to speak with an advisor.|&|7
+2|!|*Enter card number*|&|8|!|*Press #*|&|4|!|*Enter a fake card number*|&|10
+1|!|Thank you for your co-operation. Have a good day.|&|9
 3|!|The System ends the call and you go about your day. You check your bank balance later and find that a $5664 charge to amazon was added along side an additional charge for $4732.61 at McDonalds. You were scammed for $10396.61.|&|F|&|0
-1|!|Thank you for your Co-operation. Have a good day.|&|11
+1|!|Thank you for your co-operation. Have a good day.|&|11
 3|!|The System ends the call and you go about your day. Your bank balance remains unchanged but you really hope that bank card number you gave doesn't belong to someone else. You weren't scammed, but you didn't get anything either.|$|S|&|0
-1|!|Thank you for confirming, we have withdrawn the funds from your account and sent them to amazon.com. To cancel,  press 1. To talk to an advisor, press 2. for other options, press 9|&|13
-2|!|*press 1*|&|14|!|*press 2*|&|4|!|*press 9*|&|15
-1|!|Before we cancel your purchase, please enter your the 16 digits on your bank card or press # to talk to an advisor.|&|7
-1|!|Welcome to the main menu, to manage your account press 1, to report a scam press 2, to talk to an advisor press #|&|16
-2|!|*press 1*|&|17|!|*press 2*|&|36|!|*press #*|&|4
-1|!|Welcome to your account. To view your balance, press 1. To make a transfer, press 2. To return to the main menu press 9|&|18
+1|!|Thank you for confirming, we have withdrawn the funds from your account and sent them to amazon.com. To cancel, press 1. To talk to an advisor, press 2. For other options, press 9.|&|13
+2|!|*Press 1*|&|14|!|*Press 2*|&|4|!|*Press 9*|&|15
+1|!|Before we cancel your purchase, please enter the 16 digits on your bank card or press # to talk to an advisor.|&|7
+1|!|Welcome to the main menu, to manage your account, press 1. To report a scam, press 2. To talk to an advisor, press #.|&|16
+2|!|*Press 1*|&|17|!|*Press 2*|&|36|!|*Press #*|&|4
+1|!|Welcome to your account. To view your balance, press 1. To make a transfer, press 2. To return to the main menu, press 9.|&|18
 2|!|*Press 1*|&|19|!|*Press 2*|&|20|!|*Press 9*|&|15
 1|!|Your current account balance is $11,436.|&|17
-1|!|Please enter a phone number connected to an account to transfer funds to or enter # to return to your account|&|21
-2|!|*enter your phone number*|&|22|!|*enter a random phone number*|&|29|!|*Press #*|&|17
+1|!|Please enter a phone number connected to an account to transfer funds to or enter # to return to your account.|&|21
+2|!|*Enter your phone number*|&|22|!|*Enter a random phone number*|&|29|!|*Press #*|&|17
 1|!|Please enter the amount of money to transfer or enter # to return to your account|&|23
-2|!|*enter 123,456*|&|24|!|*enter 11,436*|&|26|!|*Press #*|&|17
-1|!|Unnable to withdraw that amount. Ending call.|&|25
-3|!|The call ends. Just in case you check your bank balance and find that no funds were deposited. Luckily, the amazon changes mentioned are also not shown in your account balance. You weren't scammed, but you didn't get anything either.|$|S|&|0
-1|!|Transfering funds|&|27
-1|!|Funds have been trnasfered successfully. Ending call.|&|28
+2|!|*Enter 123,456*|&|24|!|*Enter 11,436*|&|26|!|*Press #*|&|17
+1|!|Unable to withdraw that amount. Ending call.|&|25
+3|!|The call ends. Just in case, you check your bank balance and find that no funds were deposited. Luckily, the Amazon changes mentioned are also not shown in your account balance. You weren't scammed, but you didn't get anything either.|$|S|&|0
+1|!|Transferring funds...|&|27
+1|!|Funds have been trnasferred successfully. Ending call.|&|28
 3|!|The call ends. you check your account and you find that the $11,436 were transfered to your account. Congradulations, you've scammed the automated scam out of $11,436.|$|S|&|0
-1|!|Please enter the amount of money to transfer or enter # to return to your account|&|30
-2|!|*enter 123,456*|&|31|!|*enter 11,436*|&|33|!|*Press #*|&|17
+1|!|Please enter the amount of money to transfer or enter # to return to your account.|&|30
+2|!|*Enter 123,456*|&|31|!|*Enter 11,436*|&|33|!|*Press #*|&|17
 1|!|Unnable to withdraw that amount. Ending call.|&|32
-3|!|The call ends. Just in case you check your bank balance and find that no funds were deposited. Luckily, the amazon changes mentioned are also not shown in your account balance. You weren't scammed, but you didn't get anything either.|$|S|&|0
-1|!|Transfering funds|&|34
+3|!|The call ends. Just in case, you check your bank balance and find that no funds were deposited. Luckily, the Amazon changes mentioned are also not shown in your account balance. You weren't scammed, but you didn't get anything either.|$|S|&|0
+1|!|Transferring funds...|&|34
 1|!|Funds have been trnasfered successfully. Ending call.|&|35
 3|!|The call ends. you check your account and you find that it's completely unchanged. Hopefully whoever got the funds can use them. You weren't scammed, but you didn't get anything either.|$|S|&|0
-1|!|Please enter the phone number of a scam caller or press # to return to the main menu|&|37
-2|!|*enter your phone number*|&|38|!|*enter the callers phone number*|&|40|!|*Press #*|&|15
+1|!|Please enter the phone number of a scam caller or press # to return to the main menu.|&|37
+2|!|*Enter your phone number*|&|38|!|*Enter the callers phone number*|&|40|!|*Press #*|&|15
 1|!|Thank you for reporting a potential scam, we'll look into it. Ending call.|&|39
 3|!|The call ends. you check your balance and find that it's unchanged. Hopefully, your phone number isn't blocked on too many sites. You weren't scammed, but you didn't get anything either.|$|S|&|0
 1|!|Thank you for reporting a potential scam, we'll look into it. Ending call.|&|41
-3|!|The call ends. you check your balance and find that it's unchanged. Hopefully, the scammers phone number will be added to a list of known scammer and they'll be unnable to scam people further. You weren't scammed and might have reported the scammer.|$|S|&|0
+3|!|The call ends. You check your balance and find that it's unchanged. Hopefully, the scammer's phone number will be added to a list of known scammer and they'll be unnable to scam people further. You weren't scammed and might have reported the scammer.|$|S|&|0
