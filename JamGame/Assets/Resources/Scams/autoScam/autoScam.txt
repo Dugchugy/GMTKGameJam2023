@@ -6,7 +6,7 @@
 1|!|Thank you for confirming your purchase, please enter the 16 digits on your bank card to confirm your identity or press # to speak with an advisor|&|7
 2|!|*enter card number*|&|8|!|*Press #*|&|4|!|*enter a fake card number*|&|10
 1|!|Thank you for your Co-operation. Have a good day.|&|9
-3|!|The System ends the call and you go about your day. You check your bank balance later and find that a $5664 charge to amazon was added along side an additional charge for $4732.61 at McDonalds. You were scammed for $10396.61.|&|F|&|0
+3|!|The System ends the call and you go about your day. You check your bank balance later and find that a $5664 charge to amazon was added along side an additional charge for $4732.61 at McDonalds. You were scammed for $10396.61.|$|F|&|0
 1|!|Thank you for your Co-operation. Have a good day.|&|11
 3|!|The System ends the call and you go about your day. Your bank balance remains unchanged but you really hope that bank card number you gave doesn't belong to someone else. You weren't scammed, but you didn't get anything either.|$|S|&|0
 1|!|Thank you for confirming, we have withdrawn the funds from your account and sent them to amazon.com. To cancel,  press 1. To talk to an advisor, press 2. for other options, press 9|&|13

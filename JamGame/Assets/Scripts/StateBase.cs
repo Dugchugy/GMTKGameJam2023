@@ -1,4 +1,4 @@
-
+using UnityEngine;
 
 public class StateBase
 {
@@ -39,6 +39,8 @@ public class StateBase
 
             //reads the subpart type as content
             contents[i - 1] = subparts[0];
+
+            Debug.Log(parts[i]);
 
             //reads teh second subpart as the link index
             linkIndexs[i - 1] = int.Parse(subparts[1]) - 1;

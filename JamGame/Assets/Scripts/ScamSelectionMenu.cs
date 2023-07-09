@@ -15,6 +15,17 @@ public class ScamSelectionMenu : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 
+    public void SelectAuto(){
+        //stores the path for the CRA scammer image
+        InterMenuSelection.scammerImagePath = "Scams/autoScam/AutoScammer";
+
+        //stores the path for the CRA scam text
+        InterMenuSelection.scammerTextPath = "Scams/autoScam/autoScam";
+
+        //loads the main interaction Scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+    }
+
     public void MoveToScamSelection(){
         //moves to the scam selection scene
         UnityEngine.SceneManagement.SceneManager.LoadScene(2);
