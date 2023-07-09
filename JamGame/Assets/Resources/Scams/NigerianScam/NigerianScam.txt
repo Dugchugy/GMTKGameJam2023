@@ -1,23 +1,23 @@
 1|!|Hello, I am a Nigerian Price attempting to return to my homeland. Please transfer me $5,072 for plane tickets. I can pay you back once I return to my county.|&|2
 2|!|Those are some expensive plane tickets|&|3|!|do you have an account I can transfer the funds to?|&|6|!|How do I know you'll pay me back?|&|17
 1|!|Yes. I will only fly in first class. I am a prince after all.|&|4
-2|!|Are you sure you wouldn't be willing to try a cheaper flight?|&|5|!|Makes sense. do you have an account I can transfer the funds to?|&|6|!|Aren't there other royals in nigeria you could ask|&|18
+2|!|Are you sure you wouldn't be willing to try a cheaper flight?|&|5|!|Makes sense. do you have an account I can transfer the funds to?|&|6|!|Aren't there other royals in Nigeria you could ask|&|18
 1|!|No, I refuse to fly anything short of first class|&|2
 1|!|You can transfer the funds to the bank account attached to my phone number|&|7
-2|!|Sure, I'll transfer the funds right now|&|8|!|My bank doesn't support transfering to phone numbers, could you give a credit card number I could pay funds to?|&|10|!|My bank doesn't support transfering to phone numbers, is there someone in nigeria who could send you the money?|&|18
+2|!|Sure, I'll transfer the funds right now|&|8|!|My bank doesn't support transferring to phone numbers, could you give a credit card number I could pay funds to?|&|10|!|My bank doesn't support transferring to phone numbers, is there someone in Nigeria who could send you the money?|&|18
 1|!|Thank you so much, I'll make sure to pay you back as soon as I can return home.|&|9
-3|!|You send him the $5,072 but he never does pay you back. You're begining to think he wasn't really a nigerian prince. You've been Scammed, better luck next time|$|F|&|0
+3|!|You send him the $5,072 but he never does pay you back. You're begining to think he wasn't really a Nigerian prince. You've been Scammed, better luck next time|$|F|&|0
 1|!|Do you promise not to spend any money from the card?|&|11
 2|!|Yes *keep promise*|&|12|!|Yes *break promise*|&|14|!|No|&|16
-1|!|Thank you very much sir, my credit card number is 1594 7890 2032 1027, it expires October 4th, 2011 and the three digits on the back are 4, 7, and 2|&|13
+1|!|Thank you very much sir, my credit card number is 1594 7890 2032 1027, it expires October, 2011 and the three digits on the back are 4, 7, and 2|&|13
 3|!|You pay the $5,072 to his card and he thanks you before ending the call. he never does pay you back though. You've been Scammed, better luck next time|$|F|&|0
-1|!|Thank you very much sir, my credit card number is 1594 7890 2032 1027, it expires October 4th, 2011 and the three digits on the back are 4, 7, and 2|&|15
-3|!|You immidiatly plug the credit card details into amazon and buy as much as you can. You manage to pick up $350 in trinkets before he catchs on and deactivates the card. Congradulations, you scammed the scammer for $350|$|S|&|0
-1|!|that is very unfortunate sir. I would never do such a thing to you.|&|17
-1|!|us Nigerian royals are very trustworthy people, you can count on me to pay you back what you pay me|&|2
+1|!|Thank you very much sir, my credit card number is 1594 7890 2032 1027, it expires October, 2011 and the three digits on the back are 4, 7, and 2|&|15
+3|!|You immediately plug the credit card details into amazon and buy as much as you can. You manage to pick up $350 in trinkets before he catches on and deactivates the card. Congratulations, you scammed the scammer for $350|$|S|&|0
+1|!|That is very unfortunate sir. I would never do such a thing to you.|&|17
+1|!|Us Nigerian royals are very trustworthy people, you can count on me to pay you back what you pay me.|&|2
 1|!|Nigeria is currently ungergoing great political turmoil. My uncle is attempting to illegitimately take the throne. If I were to contact home, he would ensure I never return.|&|19
-2|!|Kinda sounds like risky business. It's probably better if I don't interfer.|&|20|!|Wait, isn't Nigeria an republic? with a president?|&|22|!|That sounds pretty intense, is there an account I can transfer the money to?|&|6
+2|!|Kinda sounds like risky business. It's probably better if I don't interfere.|&|20|!|Wait, isn't Nigeria an republic? with a president?|&|22|!|That sounds pretty intense, is there an account I can transfer the money to?|&|6
 1|!|That is okay. I will find someone else. Thank you for your kindness|&|21
 3|!|He ends the call. You weren't scammed, but you didn't manage to scam him for anything. better luck next time|$|S|&|0
-1|!|Oh no! You have fallen victom to the lies of my uncle! I will have to find help elsewhere. goodbye.|&|23
-3|!|You do some research and find that theres a nigerian embassy in germany. you give them a call and ask them if they can confirm some of the things the caller said. They inform you that nigeria is a republic and does not have any princes. They do have a major issue with scam callers pretending to be nigerian princes and offer you a $500 check for reporting the callers number. although you didn't technically scam the scammer, you still got $500 out of it. Good job.|$|S|&|0
+1|!|Oh no! You have fallen victim to the lies of my uncle! I will have to find help elsewhere. goodbye.|&|23
+3|!|You do some research and find that theres a Nigerian embassy in Germany. you give them a call and ask them if they can confirm some of the things the caller said. They inform you that Nigeria is a republic and does not have any princes. They do have a major issue with scam callers pretending to be Nigerian princes and offer you a $500 check for reporting the callers number. although you didn't technically scam the scammer, you still got $500 out of it. Good job.|$|S|&|0
