@@ -26,6 +26,17 @@ public class ScamSelectionMenu : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 
+    public void SelectNigeria(){
+        //stores the path for the CRA scammer image
+        InterMenuSelection.scammerImagePath = "Scams/NigerianScam/classicScammer";
+
+        //stores the path for the CRA scam text
+        InterMenuSelection.scammerTextPath = "Scams/NigerianScam/NigerianScam";
+
+        //loads the main interaction Scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+    }
+
     public void MoveToScamSelection(){
         //moves to the scam selection scene
         UnityEngine.SceneManagement.SceneManager.LoadScene(2);

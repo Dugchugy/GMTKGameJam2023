@@ -24,14 +24,14 @@
 1|!|Unnable to withdraw that amount. Ending call.|&|25
 3|!|The call ends. Just in case you check your bank balance and find that no funds were deposited. Luckily, the amazon changes mentioned are also not shown in your account balance. You weren't scammed, but you didn't get anything either.|$|S|&|0
 1|!|Transfering funds|&|27
-1|!|Funds have been trnasfered successfully. Ending call.|&|28
+1|!|Funds have been transfered successfully. Ending call.|&|28
 3|!|The call ends. you check your account and you find that the $11,436 were transfered to your account. Congradulations, you've scammed the automated scam out of $11,436.|$|S|&|0
 1|!|Please enter the amount of money to transfer or enter # to return to your account|&|30
 2|!|*enter 123,456*|&|31|!|*enter 11,436*|&|33|!|*Press #*|&|17
 1|!|Unnable to withdraw that amount. Ending call.|&|32
 3|!|The call ends. Just in case you check your bank balance and find that no funds were deposited. Luckily, the amazon changes mentioned are also not shown in your account balance. You weren't scammed, but you didn't get anything either.|$|S|&|0
 1|!|Transfering funds|&|34
-1|!|Funds have been trnasfered successfully. Ending call.|&|35
+1|!|Funds have been transfered successfully. Ending call.|&|35
 3|!|The call ends. you check your account and you find that it's completely unchanged. Hopefully whoever got the funds can use them. You weren't scammed, but you didn't get anything either.|$|S|&|0
 1|!|Please enter the phone number of a scam caller or press # to return to the main menu|&|37
 2|!|*enter your phone number*|&|38|!|*enter the callers phone number*|&|40|!|*Press #*|&|15
